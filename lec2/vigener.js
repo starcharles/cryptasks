@@ -62,6 +62,8 @@ const key = 'XMHJO';
 const plainText = 'HELLO';
 console.log('----plain text--------');
 console.log(plainText);
+console.log('----key--------');
+console.log(key);
 
 const plainArr = wordToIntArray(plainText);
 const keyArr = wordToIntArray(key);
