@@ -1,2 +1,3 @@
 *.js
+!lec2/*.js
 *.js.map
