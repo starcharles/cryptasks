@@ -2,7 +2,7 @@
   "name": "encode",
   "version": "1.0.0",
   "description": "",
-  "main": "many-time-pad.js",
+  "main": "",
   "scripts": {
     "enc": "ts-node encode/index.ts",
     "dec": "ts-node decode/index.ts",
