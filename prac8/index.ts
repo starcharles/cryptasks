@@ -9,17 +9,13 @@ const b = config.priv.b;
 // key generation
 // 1. Alice
 const x = new BN(G).pow(a).mod(P);
-// const x = G ** a % P;
 // 2. Bob
-// const y = G ** b % P;
 const y = new BN(G).pow(b).mod(P);
 
 // key exchange
 // 1. Alice receive y
 const ka = new BN(y).pow(a).mod(P);
-// const ka = y ** a % P;
 // 2. Bob receive x
 const kb = new BN(x).pow(b).mod(P);
-// const kb = x ** b % P;
 
 console.log(ka.toNumber() === kb.toNumber());
