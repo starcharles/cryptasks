@@ -59,11 +59,8 @@ const bench2 = benchmark(config.text.repeat(10), "");
 const bench3 = benchmark(config.text.repeat(100), "");
 
 
-console.log("order estimation");
+// console.log("order estimation");
 console.log("compare1=============");
-// console.log(`md5: ${bench1.md5}`);
-// console.log(`md5: ${bench2.md5}`);
-// console.log(`md5: ${bench3.md5}`);
 console.log(`md5: ${bench2.md5 / bench1.md5}`);
 console.log(`sha1: ${bench2.sha1 / bench1.sha1}`);
 console.log(`sha256: ${bench2.sha256 / bench1.sha256}`);
