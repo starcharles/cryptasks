@@ -1,0 +1,20 @@
+{
+  "name": "encode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "enc": "ts-node encode/index.ts",
+    "dec": "ts-node decode/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/bignumber.js": "^5.0.0",
+    "@types/node": "^10.14.4"
+  }
+}
