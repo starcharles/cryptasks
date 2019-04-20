@@ -18,4 +18,4 @@ const ka = new BN(y).pow(a).mod(P);
 // 2. Bob receive x
 const kb = new BN(x).pow(b).mod(P);
 
-console.log(ka.toNumber() === kb.toNumber());
+console.log(`ka == kb : ${ka.toNumber() === kb.toNumber()}`);
