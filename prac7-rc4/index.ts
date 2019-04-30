@@ -31,7 +31,6 @@ for (let n=0; n < P.length; n++) {
 	const t = (S[i] + S[j]) % S.length;
 	const k = S[t];
 	C[n] = P[n]^k;
-	// console.log(C[n]);
 }
 
 console.log(`P = [${P}]`);
